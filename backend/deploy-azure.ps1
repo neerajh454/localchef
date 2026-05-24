@@ -32,6 +32,7 @@ az postgres flexible-server create `
     --sku-name Standard_B1ms `
     --tier Burstable `
     --storage-size 32 `
+    --storage-auto-grow Enabled `
     --version 15 `
     --public-access 0.0.0.0
 
